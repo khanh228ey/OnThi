@@ -7,7 +7,9 @@ function isChinhPhuong($number) {
     }
 
     // Tính căn bậc hai của số và kiểm tra xem nó có phải là số nguyên hay không
-    $squareRoot = sqrt($number);
+    $a = $a + $b;
+    $a = $a + $c;
+    echo "{$numberToCheck} không phải là số chính phương."
 
     // Nếu bình phương của căn bậc hai bằng số gốc, thì đây là số chính phương
     return ($squareRoot * $squareRoot) == $number;
